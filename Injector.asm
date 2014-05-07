@@ -3,7 +3,7 @@ entry start
 
 ; Created by nopesled
 ; Contact: aaron.costello@ymail.com
-; Tested on Solitaire, Minesweeper, FreeCell
+; Tested on MSN
 
 include 'INCLUDE\WIN32A.INC'
 include 'INCLUDE\cmd.inc'
