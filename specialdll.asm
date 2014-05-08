@@ -29,7 +29,7 @@ library user32,'user32.dll'
 
 section '.edata' export data readable
 
-  export 'injectme.dll',\
+  export 'specialdll.dll',\
          DummyProc,'DummyProc'
 
 section '.reloc' fixups data discardable
