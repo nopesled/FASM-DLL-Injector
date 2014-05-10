@@ -59,6 +59,7 @@ section '.code' code readable executable
                 invoke  CreateRemoteThread,[procs],0,0,eax,[pages],0,thrid
                 cmp eax,NULL
                 jz makethread
+                invoke  HeapFree,[hhndl],HEAP_NO_SERIALIZE,[hbuff]
                 invoke  ExitProcess,0
 
         opening:
