@@ -2,7 +2,7 @@ format PE GUI 4.0
 entry start
 
 ; Created by nopesled
-; Contact: aaron.costello@ymail.com
+; Contact: x86sec@yahoo.ie
 ; Tested on MSN
 
 include 'INCLUDE\WIN32A.INC'
